@@ -1,6 +1,6 @@
 # Generating Professional Readme.md File
 
-  [inquirer": "8.2.4 License Information: MIT-Lincese](https://img.shields.io/badge/License-MIT-Lincese-red.svg)
+  [inquirer": "8.2.4 License Information: MIT-Lincese](https://img.shields.io/badge/License-$%7Blicense%7D-red.svg)
 
 ## Description
 
