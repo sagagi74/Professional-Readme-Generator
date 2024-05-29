@@ -5,6 +5,8 @@ function renderLicenseBadge(license) {
     return '';
   }
   //License = timyun
+  //https://img.shields.io/badge/License-$%7Byonglicense%7D-yellow.svg
+  
   return `![License: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
 }
 
