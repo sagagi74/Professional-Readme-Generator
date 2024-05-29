@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
   if (!license) {
     return '';
   }
-  return `## License
+  return `## License Information
 
 This Application is licensed under Named: ${license}`;
 }
@@ -37,7 +37,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-## Description
+## Description of your project
 
 ${data.description}
 
@@ -52,25 +52,25 @@ ${data.description}
 
 
 
-## Installation
+## Installation Guide 
 
 ${data.installation}
 
-## Usage
+## Usage Information
 
 ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## How to contribute to this project
 
 ${data.contributing}
 
-## Tests
+## Test This Project
 
 ${data.tests}
 
-## Questions
+## Questions to Creator
 
 If you have any questions about this application, please email me at ${data.email}. Checkout my other works at [${data.github}](https://github.com/${data.github}).
 
