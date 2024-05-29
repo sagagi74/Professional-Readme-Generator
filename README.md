@@ -1,6 +1,6 @@
 # Generating Professional Readme.md File
 
-  ![License: MIT License](https://img.shields.io/badge/License-MIT License-red.svg)
+  [inquirer": "8.2.4 License Information: MIT-Lincese](https://img.shields.io/badge/License-MIT-Lincese-red.svg)
 
 ## Description
 
@@ -27,7 +27,7 @@ Is is public open source, you can use it anyway you want.
 
 ## License
 
-This Application is licensed under Named: MIT License license.
+This Application is licensed under Named: MIT-Lincese
 
 ## Contributing
 

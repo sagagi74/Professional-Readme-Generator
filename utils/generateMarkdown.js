@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
   //License = timyun
   //https://img.shields.io/badge/License-$%7Byonglicense%7D-yellow.svg
 
-  return `![License: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
+  return `[inquirer": "8.2.4 License Information: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -28,7 +28,7 @@ function renderLicenseSection(license) {
   }
   return `## License
 
-This Application is licensed under Named: ${license} license.`;
+This Application is licensed under Named: ${license}`;
 }
 
 // TODO: Create a function to generate markdown for README
