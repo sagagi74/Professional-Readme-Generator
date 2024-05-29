@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
   //License = timyun
   //https://img.shields.io/badge/License-$%7Byonglicense%7D-yellow.svg
 
-  return `[inquirer": "8.2.4 License Information: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
+  return `![License: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
 }
 
 // TODO: Create a function that returns the license link
