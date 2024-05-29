@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   }
   //License = timyun
   //https://img.shields.io/badge/License-$%7Byonglicense%7D-yellow.svg
-  
+
   return `![License: ${license}](https://img.shields.io/badge/License-${license}-red.svg)`;
 }
 
@@ -43,9 +43,13 @@ ${data.description}
 
 ## Table of Contents
 
+- ${renderLicenseLink(data.license)}
 - [Installation](#installation)
 - [Usage](#usage)
-- ${renderLicenseLink(data.license)}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
 
 
 ## Installation
@@ -60,7 +64,19 @@ ${renderLicenseSection(data.license)}
 
 ## Contributing
 
-${data.contributing}`;
+${data.contributing}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+If you have any questions about this application, please email me at ${data.email}. Checkout my other works at [${data.github}](https://github.com/${data.github}).
+
+`;
+
+
 }
 
 module.exports = generateMarkdown;
